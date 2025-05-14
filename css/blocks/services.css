@@ -1,0 +1,17 @@
+.container-services {
+    margin: 0 auto;
+    width: 1170px;
+  }
+  .section-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+  }

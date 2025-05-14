@@ -1,0 +1,14 @@
+.header {
+    border-color: #000;
+  }
+
+.header-portfolio {
+    border: 1px solid #ececec;
+}
+  
+.header-content {
+  display: flex;
+    justify-content: space-between;
+  
+    height: 80px;
+  }

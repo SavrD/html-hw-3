@@ -1,0 +1,26 @@
+.nav {
+    display: flex;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .nav-item {
+    display: flex;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+  
+    color: var(--color-black);
+    transition: color var(--transition-duration);
+  }
+  
+  .nav-link:hover {
+    color: var(--color-blue);
+  }

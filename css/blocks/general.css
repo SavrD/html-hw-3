@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+  
+    --transition-duration:  250ms;
+    --color-black: #212121;
+    --color-blue: #2294f1;
+    --color-gray: #757575;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .section {
+    padding: 94px 0;
+  }
+  img {
+    display: block;
+  }
+  
+  body,
+  ul,
+  ol,
+  p,
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    padding: 0;
+  
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  

@@ -1,0 +1,38 @@
+.contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    color: var(--color-gray);
+    gap: 40px;
+  }
+  
+  .contacts-footer {
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+  
+    color: #ffffff99;
+  }
+  
+  .contacts-link {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    height: 80px;
+    transition: color var(--transition-duration);
+  }
+  
+  .contacts-link:hover {
+    color: var(--color-blue);
+  }
+  
+  .contacts-link-footer {
+    height: unset;
+    color: var(--color-gray);
+  }
+  
+  .contacts-link-address {
+    height: unset;
+    color: #fff;
+  }

@@ -1,0 +1,25 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .projects-info {
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    padding: 20px 24px;
+  }
+  
+  .projects-name {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+  }
+  .projects-role {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+    color: var(--color-gray);
+  }

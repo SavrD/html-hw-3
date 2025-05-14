@@ -1,0 +1,29 @@
+.buttons {
+    margin-bottom: 50px;
+  
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+  }
+  
+  .button {
+    cursor: pointer;
+    padding: 6px 22px;
+  
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+  
+    border: none;
+    border-radius: 4px;
+  
+    transition: all var(--transition-duration);
+  }
+  
+  .button-active,
+  .button:focus,
+  .button:hover {
+    color: #ffffff;
+    background-color: var(--color-blue);
+  }
